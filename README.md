@@ -17,6 +17,6 @@ Abre `index.html` en un navegador. No requiere instalación ni proceso de compil
 3. En **Build and deployment**, selecciona **Deploy from a branch**, la rama `main` y la carpeta `/(root)`.
 4. Guarda y espera a que GitHub Pages publique el sitio.
 
-## Autoría
+## Equipo de trabajo
 
-Elaborado por Raúl Gutiérrez Martínez · Grupo 212029_39 · UNAD, ECBTI · Noviembre de 2026.
+Daniela Andrea Araujo Medina, Yaneris Esther Domínguez Martínez, Raúl Gutiérrez Martínez y Oscar David Narváez García · Grupo 212029_39 · UNAD, ECBTI · Noviembre de 2026.
