@@ -45,6 +45,19 @@
 .complement-note strong{color:var(--ink)}.source-note{margin:16px 0 0;font:10px var(--mono);color:var(--muted)}
 .next-phase{grid-column:1/-1;margin:10px 0 0;padding:12px 15px;border-left:3px solid var(--green);background:#e7eee9;color:#28574c;font-size:12px}
 @media(max-width:650px){.contrib-table,.contrib-table tbody{display:block;width:100%}.contrib-table thead{display:none}.contrib-table tr{display:block;margin:12px;border:1px solid var(--line);background:#fff}.contrib-table tbody th{display:block;width:100%;padding:12px 14px;background:var(--deep);color:white;font-size:15px;border:0}.contrib-table td{display:grid;grid-template-columns:92px minmax(0,1fr);gap:10px;width:100%;padding:12px 13px;border-left:3px solid var(--dimension);font-size:12px;overflow-wrap:anywhere}.contrib-table td:before{content:attr(data-label);font:10px var(--mono);letter-spacing:.04em;color:var(--dimension);text-transform:uppercase}.contrib-table td small{grid-column:2;margin-top:-5px}.contrib-table td small.core-badge{display:table}.integration-notes{grid-template-columns:1fr}.integration-note{padding:16px}.complement-note{padding:15px}.next-phase{grid-column:1/-1}}
+/* Evita que el contenido del hero choque con el rótulo inferior en ventanas bajas. */
+.hero{height:auto;min-height:max(760px,100svh);max-height:none;padding-bottom:104px}
+.hero-content{width:min(100%,880px)}
+.hero-cta{margin-bottom:54px}
+.hero-bottom{line-height:1.4;gap:16px}
+/* La navegación completa cabe en escritorio; en pantallas medianas prioriza las estaciones. */
+.topbar{gap:12px}
+.brand{gap:8px;font-size:12px}
+.station-nav{gap:1px}
+.station-nav a{padding:8px 4px;gap:5px;font-size:11px}
+.station-nav a:before{width:20px;height:20px;flex:0 0 20px}
+@media(max-width:1250px){.brand span:last-child{display:none}.topbar{gap:8px}.station-nav a{padding:8px 4px;font-size:10px}.station-nav a:before{width:19px;height:19px;flex-basis:19px}}
+@media(max-width:650px){.hero{min-height:max(900px,100svh);padding-top:90px;padding-bottom:250px}.hero-cta{margin-bottom:42px}.hero-bottom{bottom:16px}.station-nav{gap:1px}.station-nav a{font-size:0;padding:8px 4px;gap:0}.station-nav a:before{font:9px var(--mono);width:19px;height:19px;flex-basis:19px}.topbar{gap:7px}}
 </style>
 </head>
 <body>
